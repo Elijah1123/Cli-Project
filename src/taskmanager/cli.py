@@ -1,8 +1,8 @@
 # src/taskmanager/cli.py
 import click
 from tabulate import tabulate
-from taskmanager.db import init_db
-from taskmanager import crud
+from .db import init_db
+from . import crud
 
 
 @click.group()
